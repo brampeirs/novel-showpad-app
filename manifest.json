@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schema.showpad.com/app/manifest.v2.json",
+  "schema": {
+    "type": "app-manifest",
+    "version": 2
+  },
+
+  "appKey": "com.showpad.app.user-settings-novel-showpad-app",
+
+  "name": "Personal Notes",
+  "version": "1.0.7",
+  "description": {
+    "short": "Personal notes for sales user",
+    "full": "Adds a button in the header bar of the web-app that enables the sales user to take personal notes, stored only on their machine."
+  },
+  "icon": "app/images/tiptap.png",
+  "images": ["app/images/cover.png"],
+  "developer": {
+    "name": "Showpad",
+    "websiteUrl": "https://showpad.com"
+  },
+  "userSettings": [
+    {
+      "extensionKey": "novel-showpad-app",
+      "name": "Personal Notes",
+      "description": "Personal notes for sales user",
+      "resources": {
+        "folder": "app"
+      }
+    }
+  ]
+}
